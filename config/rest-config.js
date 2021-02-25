@@ -1,0 +1,5 @@
+export const mainUrl = 'https://newsapi.org/v2/top-headlines'
+export const country = 'in'
+export const language = 'en'
+export const category = 'general'
+export const api_key = '5439f9cd550f4512b8a1e7a4d4d5e408'
