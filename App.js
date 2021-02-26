@@ -26,7 +26,7 @@ export default function App() {
           <Tab.Screen name="General" component={FeedScreen}
               options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="home" color={color} size={26} />
+                 <MaterialComunityIcons name="home" color={color} size={35} />
                 )
               }}
               initialParams={{name:'General'}}
@@ -35,7 +35,7 @@ export default function App() {
           <Tab.Screen name="Business" component={FeedScreen} 
               options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="handshake" color={color} size={26} />
+                 <MaterialComunityIcons name="handshake" color={color} size={35} />
               )
                }}
                initialParams={{name:'Business'}}
@@ -43,7 +43,7 @@ export default function App() {
           <Tab.Screen name="Sports" component={FeedScreen}
                 options={{
                   tabBarIcon:({color,size})=>(
-                   <MaterialComunityIcons name="run-fast" color={color} size={26} />
+                   <MaterialComunityIcons name="run-fast" color={color} size={35} />
                 )
                  }}
                  initialParams={{name:'Sports'}}
@@ -51,7 +51,7 @@ export default function App() {
           <Tab.Screen name="Entertainment" component={FeedScreen}
                options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="filmstrip" color={color} size={26} />
+                 <MaterialComunityIcons name="filmstrip" color={color} size={35} />
               )
                }}
                initialParams={{name:'Entertainment'}}
@@ -59,7 +59,7 @@ export default function App() {
           <Tab.Screen name="Science" component={FeedScreen}
                options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="react" color={color} size={26} />
+                 <MaterialComunityIcons name="react" color={color} size={35} />
               )
                }}
                initialParams={{name:'Science'}}
@@ -67,7 +67,7 @@ export default function App() {
           <Tab.Screen name="Health" component={FeedScreen}
                options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="hospital-box" color={color} size={26} />
+                 <MaterialComunityIcons name="hospital-box" color={color} size={35} />
               )
                }}
                initialParams={{name:'Health'}}
@@ -75,7 +75,7 @@ export default function App() {
           <Tab.Screen name="Technology" component={FeedScreen}
                options={{
                 tabBarIcon:({color,size})=>(
-                 <MaterialComunityIcons name="brain" color={color} size={26} />
+                 <MaterialComunityIcons name="brain" color={color} size={35} />
               )
                }}
                initialParams={{name:'Technology'}}

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import {Text, View,StyleSheet,SafeAreaView} from 'react-native';
-
+import React, { Component,useState} from 'react';
+import {Text, View,StyleSheet,SafeAreaView,TouchableOpacity, Alert} from 'react-native';
+import {MaterialIcons} from 'react-native-vector-icons'
 import NewsList from './NewsList'
 
 export default function NewsFeed({navigation,route}){
@@ -13,9 +13,12 @@ export default function NewsFeed({navigation,route}){
                <Text style={styles.HeadLine}>
                 {route.params.name}
                </Text>
+               <TouchableOpacity style={styles.reload} onPress={()=>Alert.alert('News Updated')} >
+               <MaterialIcons name='cached' size={35} />
+               </TouchableOpacity>
            </SafeAreaView>
            <View >
-             <NewsList category={route.params.name}/>
+             <NewsList  category={route.params.name}/>
            </View>
 
             </View>
@@ -40,7 +43,11 @@ const styles= StyleSheet.create(
             fontWeight:'bold',
             textAlign:'center'
         },
-        
+        reload:{
+            position:'absolute',
+            right:5,
+            top:29
+        }
     }
     );
 
