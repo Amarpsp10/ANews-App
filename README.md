@@ -1,3 +1,3 @@
 # ANews-App
-A News app build with JavaScript frameword react-native
+read me file update soon......
 
