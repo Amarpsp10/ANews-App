@@ -4,7 +4,7 @@
     "slug": "ANews_App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/world.png",
     "splash": {
       "image": "./assets/anewsApplogo.png",
       "resizeMode": "contain",
@@ -23,10 +23,13 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.amarpsp10.ANews_App"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A basic news article app. you can read top headlines with category filters. \nbuild with javaScript frame work React-native.",
+    "githubUrl": "https://github.com/Amarpsp10/ANews-App"
   }
 }
