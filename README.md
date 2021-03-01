@@ -15,7 +15,7 @@ Category filter in Bottom Navigation bar.
 
 
 # How to clone and run
- Make sure you have installed <b>Expo-Cli</b> and <b>Node Js</b> in your local system..
+ Before cloning Make sure you have installed <b>Expo-Cli</b> and <b>Node Js</b> in your local system..
  <ol>
             <li>Clone repo in your local system:</li>
             <b>git clone https://github.com/Amarpsp10/ANews-App.git</b>
