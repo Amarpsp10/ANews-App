@@ -9,6 +9,6 @@ Category filter in Bottom Navigation bar.
             
 # Open Source Pakages used in project
 <ul>
-            <li>React-Navigation</li>
-            <li>React Native Vector Icons</li>
+            <li><a href="https://reactnavigation.org/">React Navigation</a></li>
+            <li><a href="https://www.npmjs.com/package/react-native-vector-icons">React-native-vector-icons</a></li>
 </ul>
