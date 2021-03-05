@@ -16,12 +16,8 @@ Category filter in Bottom Navigation bar.
 
 # How to clone and run
  Before cloning Make sure you have installed <b>Expo-Cli</b> and <b>Node Js</b> in your local system..
- <ol>
-            <li>Clone repo in your local system:</li>
-            <b>git clone https://github.com/Amarpsp10/ANews-App.git</b>
-            <li>Install all required dependencies:</li>
-            <b>npm install</b><br>
-               after second step all needed dependencies will add in your project.
-            <li>Now you can run it by</li>
-            <b>npm start</b>
- </ol>
+ clone repo and run these command in your root directories:
+    
+    git clone https://github.com/Amarpsp10/ANews-App.git
+    npm install
+    npm start
