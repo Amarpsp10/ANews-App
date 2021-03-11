@@ -20,4 +20,11 @@ Category filter in Bottom Navigation bar.
     
     git clone https://github.com/Amarpsp10/ANews-App.git
     npm install
+    
+ then go to ./android directory and install the app by running:   
+    
+    gradlew installDebug
+    
+ and start project by running in root directory:
+    
     npm start
